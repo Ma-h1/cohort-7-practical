@@ -14,4 +14,4 @@ def prob3():
     return sum(info)
 
 
-print(f"Total fueld required is: {prob3()}")
+print(f"Total fuel required is: {prob3()}")

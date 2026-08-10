@@ -24,7 +24,12 @@ def prob_2_resources():
     print(aut1())
     print(aut2())
     print(aut3())
-    print("Aut 3 is the winner")
+    holder = []
+    holder.append(aut1())
+    holder.append(aut2())
+    holder.append(aut3())
+    winner = holder.index(max(holder)) + 1
+    print(f"Aut {winner} is the winner")
 
 
 prob_2_resources()
